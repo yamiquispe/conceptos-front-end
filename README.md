@@ -34,3 +34,26 @@ Práctica legal que consiste en el ejercicio del derecho de autor con el objetiv
 - [Agregar una licencia a tu repositorio](https://help.github.com/es/github/building-a-strong-community/adding-a-license-to-a-repository)
 - [Cómo elegir la licencia correcta para tu proyecto Open Source](https://hipertextual.com/archivo/2014/05/como-elegir-licencias-open-source/)
 - [¿Sabes bien qué licencia elegir para tu software?](https://www.muylinux.com/2013/07/18/eleccion-licencia-software/)
+
+---
+
+## Añadiendo insignias a nuestro README
+
+Las insignias en nuestro README podrían indicar datos como el número de descargas, el estado de la build, la cobertura de los tests, etc.
+
+#### Ejemplos de insignias:
+<p align="center">
+  <img src="https://img.shields.io/badge/build-passing-brightgreen">
+  <img src="https://img.shields.io/badge/npm-v15.5.6-9cf">
+</p>
+
+`build`: Indica el estado de la compilación.
+
+En nuestro ejemplo, indica que la compilación está "pasando" (comúnmente significa que las pruebas pasan y nada explotó durante la compilación más reciente).
+
+### Recursos
+
+- Página para crear insignias: https://shields.io/
+- [Enriqueciendo el README con Shields.io](https://www.ikeinyyo.com/shields-io-enriqueciendo-nuestro-readme-md/)
+
+<br>
