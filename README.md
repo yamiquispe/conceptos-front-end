@@ -112,4 +112,22 @@ Existe la posibilidad de que desarrollar pruebas automáticas haga más lenta tu
  
  ---
  
+ ## Metodologías de Desarrollo (DD's)
+ 
+ ### TDD (Test Driven Development)
+Práctica de programación que consiste en escribir primero las pruebas (generalmente unitarias), después escribir el código fuente que pase la prueba satisfactoriamente y, por último, refactorizar el código escrito. 
+
+Funciona apropiadamente siempre que la dirección de la organización esté familiarizada con estas pruebas unitarias, en definitiva sus habilidades técnicas deberán ser lo suficientemente sólidas. Entre sus beneficios podemos obtener un código más robusto, seguro, mantenible y una mayor rapidez en el desarrollo.
+ 
+ ### BDD (Behauvior Driven Development)
+Desarrollo dirigido por comportamiento. Las pruebas se deben definir antes del desarrollo, éstas se centran en el usuario y el comportamiento del sistema. El principal objetivo es que el equipo describa los detalles de cómo se debe comportar la aplicación a desarrollar, y de esta forma será comprensible por todos.
+
+BDD tiene la ventaja de que las pruebas unitarias se pueden escribir en un lenguaje común utilizado por todas las partes interesadas. 
+
+### Recursos
+
+- [TDD como metodología de diseño de software](https://www.paradigmadigital.com/dev/tdd-como-metodologia-de-diseno-de-software/)
+- [¿Qué es BDD (Behavior Driven Development)?](https://www.itdo.com/blog/que-es-bdd-behavior-driven-development/)
+
+ 
  
