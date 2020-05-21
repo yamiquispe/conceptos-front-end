@@ -56,4 +56,60 @@ En nuestro ejemplo, indica que la compilación está "pasando" (comúnmente sign
 - Página para crear insignias: https://shields.io/
 - [Enriqueciendo el README con Shields.io](https://www.ikeinyyo.com/shields-io-enriqueciendo-nuestro-readme-md/)
 
-<br>
+---
+
+## Testing en el desarrollo de software
+
+ Es el proceso de comprobar que tu aplicación funciona correctamente, con el fin de obtener información acerca de su calidad.
+ 
+ ### Tipos de pruebas
+ 
+ #### Según la ejecución o no del código:
+ 
+ - Estáticas: Se realizan sin necesidad de ejecutar el código. Un ejemplo de este tipo de pruebas puede ser la revisión estática de código, es decir, analizar el código fuente de una aplicación en busca de defectos, de algún tipo de patrones incorrectos y demás.
+ 
+ - Dinámicas: Se realizan ejecutando el software para poder probarlo. Por ejemplo, pruebas funcionales.
+ 
+ #### Según el uso de herramientas:
+ 
+ - Manuales: Se prueba una navegación normal. Por ejemplo, acceder a la aplicación y pulsar los botones para comprobar si funciona o no.
+ 
+- Automáticas: Se utiliza una o varias herramientas para realizar estas pruebas.
+
+ #### Según lo que verifican:
+ 
+ - **Pruebas funcionales:** Revisan el comportamiento del sistema, subsistema o componente software. Entre las más importantes tenemos:
+ 
+      - Pruebas unitarias: Prueba trozos de código concretos para ver que funciona y que no tiene errores.
+      - Pruebas de integración: Prueba a todos los componentes juntos, para ver cómo interactúan entre ellos y comprobar que todo vaya bien.
+      - Pruebas de aceptación: Las realiza el usuario. Puede que un software no contenga errores, que funcione bien, pero tal vez no hace lo que debería hacer, no está haciendo lo que el usuario quería que hiciese.
+      - Pruebas de regresión: Verifican un conjunto de escenarios que funcionaron correctamente en el pasado, para asegurar que continúen así. Una falla en una prueba de regresión significa que una nueva funcionalidad ha afectado otra funcionalidad que era correcta en el pasado, causando una "regresión".
+    
+- **Pruebas no funcionales:** Consideran el comportamiento externo del sistema. Hay varios tipos:
+
+     - Pruebas de seguridad: Buscan vulnerabilidades de seguridad (hacking ético).
+     - Pruebas de rendimiento: Permiten conocer el comportamiento del software ante una carga determinada, cómo responde y cómo se recupera ante fallos.
+     - Pruebas de usabilidad: Permiten saber el nivel de usabilidad de la aplicación, pero sin entrar en aspectos funcionales. Por ejemplo, si tiene un menú que hace que la navegación sea intuitiva, si tiene un contenido de ayuda que explica el funcionamiento de la aplicación, etc.
+     - Pruebas de accesibilidad: Tienen por fin determinar la facilidad con la que se puede utilizar un sitio web. Por ejemplo, correcta visualización de los elementos, proveer alternativas de uso para personas con alguna discapacidad visual o auditiva, etc.
+      
+Tal vez hayas oído de las pruebas de caja blanca y de caja negra, pero lo que ocurre con las mismas es que no son tipos de pruebas, sino técnicas de pruebas de software.
+
+### Cuando NO testear
+
+Existe la posibilidad de que desarrollar pruebas automáticas haga más lenta tu experiencia de desarrollo. Recordemos que el propósito de las pruebas automáticas es ahorrar tiempo.
+
+### En resumen
+
+   - No siempre hace falta tener pruebas automáticas 🤔
+   - No necesitas tests si pasas más tiempo re-escribiendo tests que desarrollando funcionalidades.
+   - Tu objetivo no es obtener el 💯% de cobertura en tus tests 🚫. 
+   - No eres mejor tester por tener todo al 💯%.
+   - TDD es bueno. TDD estricto y a rajatabla puede ser un dolor de cabeza.
+
+ ### Recursos
+
+ - [Tipos de testing en el desarrollo de software](https://programacionymas.com/blog/tipos-de-testing-en-desarrollo-de-software)
+ 
+ ---
+ 
+ 
