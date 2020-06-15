@@ -129,5 +129,63 @@ BDD tiene la ventaja de que las pruebas unitarias se pueden escribir en un lengu
 - [TDD como metodología de diseño de software](https://www.paradigmadigital.com/dev/tdd-como-metodologia-de-diseno-de-software/)
 - [¿Qué es BDD (Behavior Driven Development)?](https://www.itdo.com/blog/que-es-bdd-behavior-driven-development/)
 
- 
- 
+---
+
+## CLI (Interfaz de línea de comandos)
+Es un método que permite a los usuarios dar instrucciones a algún programa informático por medio de una línea de texto simple. Debe notarse que los conceptos de CLI, shell y emulador de terminal no son lo mismo ya que CLI es un método mientras que shell y emulador de terminal son programas informáticos. Sin embargo los tres suelen utilizarse como sinónimos.
+
+Las CLI pueden emplearse interactivamente, escribiendo instrucciones en alguna especie de entrada de texto, o pueden utilizarse de una forma mucho más automatizada (archivo batch), leyendo órdenes desde un archivo de scripts. 
+
+---
+
+## Nodejs
+
+Es un entorno de tiempo de ejecución de JavaScript de lado del servidor que utiliza un modelo asíncrono y es dirigido por eventos. Dentro de Node, el código se organiza por módulos o paquetes, así que al momento de trabajar con él va a ser necesario agregar más módulos, es aquí donde entra npm.
+
+### Instalar nodejs desde la terminal de Linux:
+
+```
+sudo apt-get install nodejs
+```
+
+Para verificar la instalación de NodeJs ingrese el siguiente comando:
+
+```
+nodejs -v
+```
+
+### Recursos
+
+- [¿Qué es NodeJs?](https://openwebinars.net/blog/que-es-nodejs/)
+
+---
+
+## NPM (Node Package Manager)
+
+Es un gestor de paquetes desarrollado en su totalidad bajo el lenguaje JavaScript. Sirve para instalar y gestionar versiones de paquetes y librerías js.
+
+`npm` se incluye con Node.js , por lo que si instala Node.js automáticamente también tendrá `npm` instalado. 
+
+Para verificar la instalación de `npm` ingrese el siguiente comando:
+
+```
+npm -v
+```
+
+En caso no haya ocurrido la instalación. Pruebe ejecutando el siguiente comando:
+
+```
+sudo apt-get install npm
+```
+
+Al instalar paquetes nuevos estos serán almacenados localmente en la carpeta que lleva por nombre `node_modules` dentro de nuestro proyecto (esto se lleva a cabo por defecto) sin embargo el desarrollador puede indicarle a `npm` que instale dicho paquete de forma global, según lo considere necesario.
+
+### Recursos
+
+- [Tutorial NPM](https://codingpotions.com/npm-tutorial)
+
+
+
+
+
+
