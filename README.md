@@ -226,27 +226,22 @@ Es un modelo de arquitectura de software basado en el protocolo HTTP. Consiste e
 - Cada recurso puede tener múltiples representaciones, independientemente de cómo esté almacenado. Un ejemplo sería un recurso en formato XML y poder solicitarlo en JSON.
 - Comunicaciones cliente-servidor, se trata de comunicaciones que se denominan sin estado (STATELESS), lo que significa que cada petición al servidor es tratada de manera totalmente independiente.
 
-### Ventajas de REST
+### Ventajas de Rest
 
-- Separación de un recurso de su representación:
+- **Separación de un recurso de su representación:** Rest puede tener múltiples representaciones. No tiene estado, por lo tanto, hay que especificar en el encabezado de la petición HTTP el tipo de contenido que se desea obtener. Tras este paso, será la aplicación del servidor la encargada de manejar la representación y devolver el estado HTTP apropiado, al cual finalmente deberíamos enviarle al servidor qué es lo que esperamos recibir.
 
-Rest puede tener múltiples representaciones. No tiene estado, por lo tanto, hay que especificar en el encabezado de la petición HTTP el tipo de contenido que se desea obtener. Tras este paso, será la aplicación del servidor la encargada de manejar la representación y devolver el estado HTTP apropiado, al cual finalmente deberíamos enviarle al servidor qué es lo que esperamos recibir.
+- **Visibilidad:** Rest está diseñado para ser visible y simple, lo que significa que cada aspecto del servicio debe ser autodescriptivo siguiendo las normas HTTP.
 
-- Visibilidad
+- **Seguridad:** Al utilizar Rest garantizamos que los métodos HTTP son seguros, lo que significa que, al solicitar un recurso, este requerimiento no modifica o causa ningún tipo de cambio en su estado.
 
-Rest está diseñado para ser visible y simple, lo que significa que cada aspecto del servicio debe ser autodescriptivo siguiendo las normas HTTP.
+- **Escalabilidad:** Si el aumento de la demanda exige aumentar el número de servidores, esto puede hacerse sin preocuparse por la sincronización entre los mismos, puesto que no hay que estar pendiente del estado de los recursos.
 
-- Seguridad
+- **Rendimiento:** La escalabilidad no debe ser confundida con el rendimiento. El rendimiento se mide por el tiempo necesario para que una única petición sea procesada, mientras que la escalabilidad depende del número total de peticiones que la aplicación puede manejar.
 
-Al utilizar Rest garantizamos que los métodos HTTP son seguros, lo que significa que, al solicitar un recurso, este requerimiento no modifica o causa ningún tipo de cambio en su estado.
-
-- Escalabilidad
-
-Si el aumento de la demanda exige aumentar el número de servidores, esto puede hacerse sin preocuparse por la sincronización entre los mismos, puesto que no hay que estar pendiente del estado de los recursos.
-
-- Rendimiento
-
-La escalabilidad no debe ser confundida con el rendimiento. El rendimiento se mide por el tiempo necesario para que una única petición sea procesada, mientras que la escalabilidad depende del número total de peticiones que la aplicación puede manejar.
+### Recursos:
+- [API REST](https://bbvaopen4u.com/es/actualidad/api-rest-que-es-y-cuales-son-sus-ventajas-en-el-desarrollo-de-proyectos)
+- [¿Qué es REST y RESTful?](https://www.youtube.com/watch?v=pVAMOielOJQ)
+- [Rest vs Restful](https://www.muycomputerpro.com/zona-ticjob/competencia-ticjob-rest-vs-restful/)
 
 ---
 
