@@ -194,7 +194,7 @@ Las API permiten que sus productos y servicios se comuniquen con otros, sin nece
 
 ### Tipos de APIs 
 
-● APIs de servicios web: 
+● **APIs de servicios web:** 
 Son las interfaces de desarrollo de aplicaciones que permiten el intercambio de información entre un servicio web (software que da acceso a un servicio concreto a través de una URL) y una aplicación. 
 
 Normalmente ese intercambio se produce a través de peticiones HTTP o HTTPS (la versión cifrada del protocolo HTTP). La información será transportada en un formato `XML` o `JSON`.
@@ -206,11 +206,49 @@ Hay cuatro tipos de API de servicios web:
 - JSON-RPC: Mismo protocolo que el anterior pero en formato JSON.
 - REST (Representational State Transfer): Arquitectura de software para sistemas hipermedia en la World Wide Web; una API REST usa el protocolo HTTP.
 
-● APIs basadas en bibliotecas: Permiten que una aplicación importe una biblioteca de otro software para hacer el intercambio de información. Gran parte de las bibliotecas que dan acceso a productos y servicios están diseñadas en JavaScript. Ejemplo: la API de Google Maps.
+● **APIs basadas en bibliotecas:** Permiten que una aplicación importe una biblioteca de otro software para hacer el intercambio de información. Gran parte de las bibliotecas que dan acceso a productos y servicios están diseñadas en JavaScript. Ejemplo: la API de Google Maps.
 
-● APIs basadas en clases: Permite hacer uso de clases ya definidas, éstas poseen lógica de programación. De esta forma, permiten agilizar nuestro proceso de desarrollo de software. Ejemplo: API de Java.
+● **APIs basadas en clases:** Permite hacer uso de clases ya definidas, éstas poseen lógica de programación. De esta forma, permiten agilizar nuestro proceso de desarrollo de software. Ejemplo: API de Java.
 
-● APIs de funciones en sistemas operativos: Permiten que los programas de software interactuen con el sistema operativo. De tal forma, podemos tener acceso a elementos como el teclado, mouse, interfaz gráfica, podemos crear procesos, hilos, etc.
+● **APIs de funciones en sistemas operativos:** Permiten que los programas de software interactuen con el sistema operativo. De tal forma, podemos tener acceso a elementos como el teclado, mouse, interfaz gráfica, podemos crear procesos, hilos, etc.
 
+---
 
+## REST (Representational State Transfer)
 
+Es un modelo de arquitectura de software basado en el protocolo HTTP. Consiste en una serie de directrices que mejora las comunicaciones cliente-servidor.
+
+### Rest sigue una serie de principios:
+
+- Todo lo que se mueve a través de las comunicaciones web son recursos, es decir, los datos se representan con el formato específico que tienen y no como un archivo físico.
+- Cada uno de estos recursos ha de tener un identificador único, por ello poseen una URI única que los identifican de los demás.
+- Este protocolo de transmisión de datos debe utilizar los verbos estándares de HTTP, definidos en el protocolo nativo, donde cada uno de estos verbos significa una acción diferente. Hay 8 acciones principales ya definidas: GET, POST, PUT, DELETE, HEAD, OPTIONS, TRACE, CONNECT.
+- Cada recurso puede tener múltiples representaciones, independientemente de cómo esté almacenado. Un ejemplo sería un recurso en formato XML y poder solicitarlo en JSON.
+- Comunicaciones cliente-servidor, se trata de comunicaciones que se denominan sin estado (STATELESS), lo que significa que cada petición al servidor es tratada de manera totalmente independiente.
+
+### Ventajas de REST
+
+- Separación de un recurso de su representación:
+
+Rest puede tener múltiples representaciones. No tiene estado, por lo tanto, hay que especificar en el encabezado de la petición HTTP el tipo de contenido que se desea obtener. Tras este paso, será la aplicación del servidor la encargada de manejar la representación y devolver el estado HTTP apropiado, al cual finalmente deberíamos enviarle al servidor qué es lo que esperamos recibir.
+
+- Visibilidad
+
+Rest está diseñado para ser visible y simple, lo que significa que cada aspecto del servicio debe ser autodescriptivo siguiendo las normas HTTP.
+
+- Seguridad
+
+Al utilizar Rest garantizamos que los métodos HTTP son seguros, lo que significa que, al solicitar un recurso, este requerimiento no modifica o causa ningún tipo de cambio en su estado.
+
+- Escalabilidad
+
+Si el aumento de la demanda exige aumentar el número de servidores, esto puede hacerse sin preocuparse por la sincronización entre los mismos, puesto que no hay que estar pendiente del estado de los recursos.
+
+- Rendimiento
+
+La escalabilidad no debe ser confundida con el rendimiento. El rendimiento se mide por el tiempo necesario para que una única petición sea procesada, mientras que la escalabilidad depende del número total de peticiones que la aplicación puede manejar.
+
+---
+
+## RESTful
+Son los servicios web que implementan la arquitectura Rest.
