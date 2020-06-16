@@ -247,3 +247,13 @@ Es un modelo de arquitectura de software basado en el protocolo HTTP. Consiste e
 
 ## RESTful
 Son los servicios web que implementan la arquitectura Rest.
+
+---
+
+## Preprocesador de CSS
+
+Es un lenguaje de hoja de estilos que nos permite escribir pseudo-código `CSS` que luego será convertido a `CSS` real. Ese pseudo-código se conforma de variables, condiciones, bucles o funciones.
+
+El objetivo de estos preprocesadores es tener un código más sencillo de mantener y editar. Los preprocesadores incluyen características tales como variables, funciones, mixins, anidación o modularidad. 
+
+**Ejemplos:** Sass, Less, Stylus, etc.
