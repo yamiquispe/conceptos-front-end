@@ -184,8 +184,33 @@ Al instalar paquetes nuevos estos serán almacenados localmente en la carpeta qu
 
 - [Tutorial NPM](https://codingpotions.com/npm-tutorial)
 
+---
 
+## API (Application Programming Interface)
 
+Es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones. API significa interfaz de programación de aplicaciones.
+
+Las API permiten que sus productos y servicios se comuniquen con otros, sin necesidad de saber cómo están implementados. Esto simplifica el desarrollo de las aplicaciones y permite ahorrar tiempo y dinero. Las API le otorgan flexibilidad; simplifican el diseño, la administración y el uso de las aplicaciones, y proporcionan oportunidades de innovación, lo cual es ideal al momento de diseñar herramientas y productos nuevos (o de gestionar los actuales).
+
+### Tipos de APIs 
+
+● APIs de servicios web: 
+Son las interfaces de desarrollo de aplicaciones que permiten el intercambio de información entre un servicio web (software que da acceso a un servicio concreto a través de una URL) y una aplicación. 
+
+Normalmente ese intercambio se produce a través de peticiones HTTP o HTTPS (la versión cifrada del protocolo HTTP). La información será transportada en un formato `XML` o `JSON`.
+
+Hay cuatro tipos de API de servicios web:
+
+- SOAP (Simple Object Access Protocol): Protocolo estándar de intercambio de información y datos en XML entre dos objetos.
+- XML-RPC: Protocolo de llamada a procedimiento remoto que usa XML como formato de datos y llamadas HTTP como sistema de comunicación.
+- JSON-RPC: Mismo protocolo que el anterior pero en formato JSON.
+- REST (Representational State Transfer): Arquitectura de software para sistemas hipermedia en la World Wide Web; una API REST usa el protocolo HTTP.
+
+● APIs basadas en bibliotecas: Permiten que una aplicación importe una biblioteca de otro software para hacer el intercambio de información. Gran parte de las bibliotecas que dan acceso a productos y servicios están diseñadas en JavaScript. Ejemplo: la API de Google Maps.
+
+● APIs basadas en clases: Permite hacer uso de clases ya definidas, éstas poseen lógica de programación. De esta forma, permiten agilizar nuestro proceso de desarrollo de software. Ejemplo: API de Java.
+
+● APIs de funciones en sistemas operativos: Permiten que los programas de software interactuen con el sistema operativo. De tal forma, podemos tener acceso a elementos como el teclado, mouse, interfaz gráfica, podemos crear procesos, hilos, etc.
 
 
 
