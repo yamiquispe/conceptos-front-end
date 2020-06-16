@@ -180,6 +180,8 @@ sudo apt-get install npm
 
 Al instalar paquetes nuevos estos serán almacenados localmente en la carpeta que lleva por nombre `node_modules` dentro de nuestro proyecto (esto se lleva a cabo por defecto) sin embargo el desarrollador puede indicarle a `npm` que instale dicho paquete de forma global, según lo considere necesario.
 
+<p align="center"><img href="img/npm.jpg"></p>
+
 ### Recursos
 
 - [Tutorial NPM](https://codingpotions.com/npm-tutorial)
