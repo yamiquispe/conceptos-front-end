@@ -259,3 +259,45 @@ Es un lenguaje de hoja de estilos que nos permite escribir pseudo-código `CSS` 
 El objetivo de estos preprocesadores es tener un código más sencillo de mantener y editar. Los preprocesadores incluyen características tales como variables, funciones, mixins, anidación o modularidad. 
 
 **Ejemplos:** Sass, Less, Stylus, etc.
+
+---
+
+## Patrones de arquitectura de software
+
+Es un conjunto de patrones y abstracciones coherentes que proporcionan un marco definido y claro para interactuar con el código fuente del software.
+
+### MVC (Model - View - Controller)
+
+También llamado Modelo - Vista - Controlador. Se utiliza para implementar sistemas donde se requiere el uso de interfaces de usuario. Crea software más robusto con un ciclo de vida más adecuado, donde se potencia la facilidad de mantenimiento, reutilización del código y la separación de conceptos. 
+
+Se fundamenta en la separación del código en tres capas diferentes:
+
+- **Modelo:** Es la capa donde se trabaja con los datos, por tanto contendrá mecanismos para acceder a la información y también para actualizar su estado. Los datos los tendremos habitualmente en una base de datos, por lo que en esta capa tendremos todas las funciones que accederán a las tablas y harán los correspondientes selects, updates, inserts, etc. 
+- **Vista:** Contiene el código de las interfaces de usuario.
+- **Controlador:** Es la capa que sirve de enlace entre las `vistas` y el `modelo`, respondiendo a los mecanismos que puedan requerirse para implementar las necesidades de nuestra aplicación. Por lo tanto, contiene el código que responde a las acciones que se solicitan en la aplicación, como visualizar un elemento, realizar una compra, una búsqueda de información, etc. Su responsabilidad no es manipular directamente datos, ni mostrar ningún tipo de salida.
+
+#### Usos
+
+- Arquitectura para aplicaciones World Wide Web en los principales lenguajes de programación.
+- Marcos web como Django y Rails.
+
+### Patrón de capas
+
+Se utiliza para estructurar programas que se pueden descomponer en grupos de sub-tareas y cada una de ellas se encuentra en un nivel particular de abstracción. Cada capa proporciona servicios a la siguiente capa superior.
+
+Las 4 capas más comunes encontradas en un sistema de información general son las siguientes:
+
+- Capa de presentación (también conocida como capa UI)
+- Capa de aplicación (también conocida como capa de servicio)
+- Capa de lógica de negocios (también conocida como capa de dominio)
+- Capa de acceso a datos (también conocida como capa de persistencia)
+
+#### Usos
+
+- Aplicaciones de escritorio generales.
+- Aplicaciones web de comercio electrónico.
+
+### Recursos
+
+- [Los 10 patrones comunes de arquitectura de software](https://medium.com/@maniakhitoccori/los-10-patrones-comunes-de-arquitectura-de-software-d8b9047edf0b)
+- [¿Qué es el patrón Modelo-Vista-Controlador?](https://www.youtube.com/watch?v=ANQDmqBYwns&t=906s)
