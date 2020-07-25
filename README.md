@@ -301,3 +301,9 @@ Las 4 capas más comunes encontradas en un sistema de información general son l
 
 - [Los 10 patrones comunes de arquitectura de software](https://medium.com/@maniakhitoccori/los-10-patrones-comunes-de-arquitectura-de-software-d8b9047edf0b)
 - [¿Qué es el patrón Modelo-Vista-Controlador?](https://www.youtube.com/watch?v=ANQDmqBYwns&t=906s)
+
+---
+
+## Plugin o complemento:
+
+Es una aplicación que se relaciona con otra para agregarle una función nueva y generalmente muy específica. 
